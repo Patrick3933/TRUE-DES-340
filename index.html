@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invictus</title>
+    <style>
+      /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+
+    body{
+  background-color: #cc3333;
+}
+      div.grid{
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr)
+      }
+
+      div.richtext{
+        font-family:'Georgia','Times New Roman','Trebuchet',sans-serif;
+        font-size:1em;
+        padding-left: 40px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: #ffffff;
+      }
+      div.richtext h1{
+        font-size:2.4em;
+        line-height:1.4em;
+        margin:0 0 1em 0;
+        padding-top: 20px;
+        text-decoration: underline;
+      }
+      div.richtext h2{
+        font-size:1.6em;
+        line-height:1.4em;
+        margin:0 0 1em 0;
+      }
+      div.richtext h3{
+        font-size:1.2em;
+        line-height:1.4em;
+        margin:0 0 1.8em 0;
+        font-style: italic;
+      }
+      div.richtext h5{
+        font-size:1em;
+        line-height:1.4em;
+        margin:0 0 1.8em 0;
+      }
+      div.richtext p{
+        font-size:1em;
+        line-height:1.4em;
+        margin:0 0 1.8em 0;
+      }
+
+    </style>
+  </head>
+  <body>
+  <div class="grid">
+    <div class="richtext">
+    <h1>INVICTUS</h1>
+    <h2>William Ernest Henley</h2>
+    <h5>1888</h5>
+    <h3>Book of Verses: Life and Death</h3>
+    <p>Out of the night that covers me<br>
+Black as the pit from pole to pole,<br>
+I thank whatever gods may be<br>
+For my unconquerable soul.</p>
+
+    <p>In the fell clutch of circumstance,<br>
+I have not winced nor cried aloud.<br>
+Under the bludgeonings of chance<br>
+My head is bloody, but unbowed.</p>
+
+<p>Beyond this place of wrath and tears<br>
+Looms but the Horror of the shade,<br>
+And yet the menace of the years <br>
+Finds, and shall find, me unafraid.</p>
+
+<p>It matters not how strait the gate,<br>
+How charged with punishments the scroll, <br>
+I am the master of my fate: <br>
+I am the captain of my soul. </p>
+    </div>
+  </div>
+  </body>
+</html>
